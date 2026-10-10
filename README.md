@@ -1,40 +1,36 @@
 Password Manager
 
-Project Overview
+About the Project
 
-The Password Manager is a Python desktop application that helps users store and manage passwords. It uses encryption to protect saved password information.
-
-Technologies Used
-
-- Python
-- Tkinter
-- SQLite
-- Fernet Encryption
+A simple Python desktop application that helps users store and manage passwords securely using encryption.
 
 Features
 
-- Add passwords for websites and applications
-- Store passwords in encrypted form
-- View saved password details
-- Delete saved entries
-- Simple graphical user interface
+- Add website and username details.
+- Encrypt passwords using Fernet encryption.
+- View saved passwords.
+- Delete saved entries.
+- Store records in an SQLite database.
 
-Installation
+Technologies Used
 
-Install the required Python library:
-
-pip install cryptography
+- Python 3
+- Tkinter
+- SQLite
+- Cryptography (Fernet)
 
 How to Run
 
-Run the following command in the project folder:
+1. Install Python 3.
 
-python password_manager.py
+2. Install the required library:
+   
+   "python -m pip install cryptography"
 
-Security Note
+3. Run the application:
+   
+   "python password_manager.py"
 
-Keep the encryption key and database files private. Do not upload real passwords or secret keys to a public repository.
+Security
 
-Author
-
-Python Internship Project
+Keep the encryption key private. Never upload secret keys or databases containing passwords to a public repository.
